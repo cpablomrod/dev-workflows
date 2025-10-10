@@ -12,14 +12,18 @@ This repository contains developer productivity workflows that work in **two way
 
 ### For Warp Terminal Users
 ```bash
-# Copy workflows to Warp
+# Clone and install
+git clone https://github.com/cpablomrod/dev-workflows.git
+cd dev-workflows
 cp warp-workflows/*.yaml ~/.warp/workflows/
 # Restart Warp, then press Ctrl+R to use workflows
 ```
 
 ### For Any Terminal Users
 ```bash
-# Add aliases to your shell
+# Clone and setup aliases
+git clone https://github.com/cpablomrod/dev-workflows.git
+cd dev-workflows
 echo "source $(pwd)/shell-aliases/git-aliases.sh" >> ~/.zshrc
 source ~/.zshrc
 # Use: gcb feature/new-feature
@@ -121,8 +125,8 @@ MIT License - feel free to use in personal and commercial projects!
 ## 🔗 Links
 
 - [Warp Terminal](https://www.warp.dev/)
-- [Report Issues](https://github.com/your-username/warp-workflows/issues)
-- [Request Workflows](https://github.com/your-username/warp-workflows/issues/new)
+- [Report Issues](https://github.com/cpablomrod/dev-workflows/issues)
+- [Request Workflows](https://github.com/cpablomrod/dev-workflows/issues/new)
 
 ---
 

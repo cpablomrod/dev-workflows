@@ -11,8 +11,8 @@ This repository provides workflows that can be used in two ways: as Warp Termina
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone <your-repo-url>
-   cd warp-workflows
+   git clone https://github.com/cpablomrod/dev-workflows.git
+   cd dev-workflows
    ```
 
 2. Copy Warp workflows to your Warp directory:
@@ -33,8 +33,8 @@ This repository provides workflows that can be used in two ways: as Warp Termina
 
 1. Clone this repository:
    ```bash
-   git clone <your-repo-url>
-   cd warp-workflows
+   git clone https://github.com/cpablomrod/dev-workflows.git
+   cd dev-workflows
    ```
 
 2. Add aliases to your shell configuration:
