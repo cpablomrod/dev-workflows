@@ -1,0 +1,9 @@
+name: Show running Docker containers
+command: docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+description: Display active containers in a table format.
+author: yourname
+tags:
+  - docker
+  - ps
+  - containers
+parameters: []
