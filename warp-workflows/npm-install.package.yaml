@@ -1,0 +1,13 @@
+name: Install an NPM package
+command: npm install $package_name --save
+description: Install a dependency and save it to package.json.
+author: yourname
+tags:
+  - npm
+  - node
+  - install
+parameters:
+  - name: package_name
+    description: Name of the package to install
+    required: true
+    default_value: ""
