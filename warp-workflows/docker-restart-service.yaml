@@ -1,0 +1,13 @@
+name: Restart a Docker Compose service
+command: docker-compose restart $service_name
+description: Restart a specific Docker Compose service.
+author: yourname
+tags:
+  - docker
+  - compose
+  - restart
+parameters:
+  - name: service_name
+    description: Name of the service to restart
+    required: true
+    default_value: ""
