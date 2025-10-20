@@ -1,0 +1,9 @@
+name: Update all Python packages
+command: pip list --outdated | tail -n +3 | awk '{print $1}' | xargs -n1 pip install -U
+description: Upgrade all outdated Python packages in your environment.
+author: yourname
+tags:
+  - python
+  - pip
+  - update
+parameters: []
