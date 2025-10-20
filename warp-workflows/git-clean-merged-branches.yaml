@@ -1,0 +1,9 @@
+name: Clean merged branches
+command: git branch --merged | grep -v "\\*" | xargs -n 1 git branch -d
+description: Delete all local branches that have already been merged.
+author: yourname
+tags:
+  - git
+  - cleanup
+  - branches
+parameters: []
