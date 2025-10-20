@@ -1,0 +1,8 @@
+name: Clean unused Docker resources
+command: docker system prune -af
+description: Remove all unused containers, images, and networks.
+author: yourname
+tags:
+  - docker
+  - cleanup
+parameters: []
