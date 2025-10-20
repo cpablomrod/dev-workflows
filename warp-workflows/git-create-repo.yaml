@@ -1,0 +1,13 @@
+name: Create a new GitHub repository
+command: gh repo create $repo_name --public --source=. --push
+description: Create a new public repository on GitHub and push the current code.
+author: yourname
+tags:
+  - github
+  - repo
+  - cli
+parameters:
+  - name: repo_name
+    description: Name of the new GitHub repository
+    required: true
+    default_value: ""
