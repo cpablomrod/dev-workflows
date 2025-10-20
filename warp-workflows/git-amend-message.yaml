@@ -1,0 +1,13 @@
+name: Amend last commit message
+command: git commit --amend -m "$new_message"
+description: Update the most recent commit message.
+author: yourname
+tags:
+  - git
+  - commit
+  - message
+parameters:
+  - name: new_message
+    description: New commit message
+    required: true
+    default_value: ""
