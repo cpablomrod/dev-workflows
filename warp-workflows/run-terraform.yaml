@@ -1,0 +1,9 @@
+name: Run Terraform plan and apply
+command: terraform plan && terraform apply -auto-approve
+description: Generate and apply a Terraform execution plan automatically.
+author: yourname
+tags:
+  - terraform
+  - iac
+  - devops
+parameters: []
