@@ -1,0 +1,9 @@
+name: List AWS S3 buckets
+command: aws s3 ls
+description: Display all S3 buckets in your AWS account.
+author: yourname
+tags:
+  - aws
+  - s3
+  - cloud
+parameters: []
