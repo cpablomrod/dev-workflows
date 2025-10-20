@@ -1,0 +1,9 @@
+name: Check for outdated NPM packages
+command: npm outdated
+description: Show all outdated dependencies in your project.
+author: yourname
+tags:
+  - npm
+  - node
+  - dependencies
+parameters: []
