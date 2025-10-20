@@ -1,0 +1,13 @@
+name: Start local HTTP server
+command: python3 -m http.server $port
+description: Quickly start a local HTTP server on the given port.
+author: yourname
+tags:
+  - server
+  - local
+  - python
+parameters:
+  - name: port
+    description: Port number for the server
+    required: false
+    default_value: "8000"
