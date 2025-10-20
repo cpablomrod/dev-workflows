@@ -1,0 +1,9 @@
+name: Create Python virtual environment
+command: python3 -m venv .venv && source .venv/bin/activate
+description: Create and activate a Python virtual environment.
+author: yourname
+tags:
+  - python
+  - venv
+  - setup
+parameters: []
